@@ -11,6 +11,7 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
 .w3-third img{margin-bottom: -6px; opacity: 0.8; cursor: pointer}
 .w3-third img:hover{opacity: 1}
 </style>
+<link href="lib/stylesheets/lightbox.css" rel="stylesheet" />
 </head>
 <body class="w3-light-grey w3-content" style="max-width:1600px">
 
@@ -156,6 +157,7 @@ function w3_close() {
 </script>
 
 // Lightbox
+<script src="lib/js/lightbox.js"></script>
 $(document).on('click', '[data-toggle="lightbox"]', function(event) {
     event.preventDefault();
     $(this).ekkoLightbox();
